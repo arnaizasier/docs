@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Mintlify Starter Kit",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#024DDF",
+    "light": "#3D6EF6",
+    "dark": "#0139A8"
   },
   "favicon": "/favicon.ico",
   "navigation": {
@@ -22,6 +22,29 @@
         "pages": [
           "terminos-y-condiciones",
           "politica-de-privacidad"
+        ]
+      },
+      {
+        "group": "Centro de ayuda",
+        "pages": [
+          {
+            "group": "Para usuarios",
+            "pages": [
+              "faqs/usuarios"
+            ]
+          },
+          {
+            "group": "Para negocios",
+            "pages": [
+              "faqs/negocios"
+            ]
+          },
+          {
+            "group": "Para restaurantes",
+            "pages": [
+              "faqs/restaurantes"
+            ]
+          }
         ]
       }
     ],
